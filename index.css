@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+select {
+    width: 300px;
+    border-radius: 4px;
+}
+
+.color-app {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 15px 0;
+    padding: 0 15px;
+    height: 35px
+}
+
+.color-pick {
+    width: 10%;
+    height: 35px;
+
+}
+
+.color-scheme {
+    font-size: .8rem;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    height: 35px;
+}
+
+.color-app {
+
+}
+
+.colors-arr {
+    display: flex;
+}
+
+.individual-color {
+        width: 100%;
+        text-align: center;
+}
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: .3em 1em;
+    background: #fff;
+    border: 1px solid #707070;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.color-hex {
+    font-size: .8rem
+}
+
+.color {
+    height: 80vh;
+    width: 100%;
+
+}
+
+:root {
+    --my-variable-name: #999999;
+}
